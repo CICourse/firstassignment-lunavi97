@@ -2,10 +2,6 @@ package udemy.firstassignment.FirstAssignment;
 
 import java.math.BigInteger;
 
-/**
- * Hello world!
- *
- */
 public interface App 
 {
     /**
