@@ -37,4 +37,9 @@ public class JustDoItImpl implements JustDoIt {
 		throw new RuntimeException("Unimplemented method");
 	}
 
+	@Override
+	public int sumOddNumber(int[] vector) throws Exception {
+		throw new RuntimeException("Unimplemented method");
+	}
+
 }
