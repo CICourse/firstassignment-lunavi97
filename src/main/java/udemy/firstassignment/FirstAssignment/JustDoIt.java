@@ -43,7 +43,7 @@ public interface JustDoIt
 	 * 
 	 * @param vector1
 	 * @param vector2
-	 * @return an array with elements in both arrays
+	 * @return an array with sorted elements in both arrays
 	 * @throws Exception
 	 */
 	public abstract int[] commonElements(int[] vector1, int[] vector2) throws Exception;
