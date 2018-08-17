@@ -2,9 +2,14 @@ package udemy.firstassignment.FirstAssignment;
 
 public class JustDoItImpl implements JustDoIt {
 
+	/* (non-Javadoc)
+	 * @see udemy.firstassignment.FirstAssignment.JustDoIt#centralElement(long[])
+	 */
 	@Override
 	public long centralElement(long[] vector) throws Exception {
-		throw new RuntimeException("Unimplemented method");
+		int length = vector.length;
+		
+		return length % 2 == 1 ? vector[length / 2] : vector[(length - 1) / 2];
 	}
 
 	@Override
