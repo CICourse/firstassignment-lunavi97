@@ -27,7 +27,7 @@ public interface JustDoIt
 	 * @return a sorted vector with no duplicates
 	 * @throws Exception
 	 */
-	public abstract int simplify(int[] vector) throws Exception;
+	public abstract int[] simplify(int[] vector) throws Exception;
 	
 	/**
 	 * Returns if vector is palindrome.
